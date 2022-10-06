@@ -1,0 +1,51 @@
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 3051111937761998775, dd.span_id: 3051111937761998775","time":"2022-10-06T12:22:10-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 6614281351509897634, dd.span_id: 6614281351509897634","time":"2022-10-06T12:22:10-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 8519410790314963319, dd.span_id: 8519410790314963319","time":"2022-10-06T12:22:10-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 1233688136841581568, dd.span_id: 1233688136841581568","time":"2022-10-06T12:22:10-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 3671945507115761632, dd.span_id: 3671945507115761632","time":"2022-10-06T12:22:10-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 2588906200528642583, dd.span_id: 2588906200528642583","time":"2022-10-06T12:22:11-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 8442989889137442479, dd.span_id: 8442989889137442479","time":"2022-10-06T12:22:11-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 4322091311960674893, dd.span_id: 4322091311960674893","time":"2022-10-06T12:22:11-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 1083010820407095837, dd.span_id: 1083010820407095837","time":"2022-10-06T12:22:11-07:00"}
+{"level":"info","msg":"dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: 6694542314431923641, dd.span_id: 6694542314431923641","time":"2022-10-06T12:22:11-07:00"}
+"msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"5323237074258530518\" dd.span_id=\"5323237074258530518\"","time":"2022-10-06T11:56:55-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4596236804514223639\" dd.span_id=\"4596236804514223639\"","time":"2022-10-06T11:56:55-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"9181464836602262943\" dd.span_id=\"9181464836602262943\"","time":"2022-10-06T11:56:55-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"180230422984179930\" dd.span_id=\"180230422984179930\"","time":"2022-10-06T11:56:56-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2990095786581157961\" dd.span_id=\"2990095786581157961\"","time":"2022-10-06T11:57:00-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"5674857671617559016\" dd.span_id=\"5674857671617559016\"","time":"2022-10-06T11:57:00-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2688718191919202059\" dd.span_id=\"2688718191919202059\"","time":"2022-10-06T11:57:00-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4886105702010941340\" dd.span_id=\"4886105702010941340\"","time":"2022-10-06T11:57:00-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4426181183218573428\" dd.span_id=\"4426181183218573428\"","time":"2022-10-06T11:57:01-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"7539505589877117080\" dd.span_id=\"7539505589877117080\"","time":"2022-10-06T11:57:01-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"1135775065456911310\" dd.span_id=\"1135775065456911310\"","time":"2022-10-06T11:57:01-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"5001773099206721249\" dd.span_id=\"5001773099206721249\"","time":"2022-10-06T11:57:01-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"1031042753773258746\" dd.span_id=\"1031042753773258746\"","time":"2022-10-06T11:57:29-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2060873116628198466\" dd.span_id=\"2060873116628198466\"","time":"2022-10-06T11:57:29-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"453035370414386082\" dd.span_id=\"453035370414386082\"","time":"2022-10-06T11:57:29-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4543007567856752474\" dd.span_id=\"4543007567856752474\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"1730303692017245495\" dd.span_id=\"1730303692017245495\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2883209457491454798\" dd.span_id=\"2883209457491454798\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"7498172889998769514\" dd.span_id=\"7498172889998769514\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"8450041636198180673\" dd.span_id=\"8450041636198180673\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"8166857742680767310\" dd.span_id=\"8166857742680767310\"","time":"2022-10-06T11:57:36-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"7733140019773914638\" dd.span_id=\"7733140019773914638\"","time":"2022-10-06T11:57:37-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"1205225159675997471\" dd.span_id=\"1205225159675997471\"","time":"2022-10-06T11:57:37-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2368606670908661243\" dd.span_id=\"2368606670908661243\"","time":"2022-10-06T11:57:37-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"3592215980563782138\" dd.span_id=\"3592215980563782138\"","time":"2022-10-06T11:57:37-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2595726108549685082\" dd.span_id=\"2595726108549685082\"","time":"2022-10-06T11:57:37-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2351224815773664968\" dd.span_id=\"2351224815773664968\"","time":"2022-10-06T12:00:51-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"8051011785750707100\" dd.span_id=\"8051011785750707100\"","time":"2022-10-06T12:00:51-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2955203890065971803\" dd.span_id=\"2955203890065971803\"","time":"2022-10-06T12:00:51-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"5152299721780885243\" dd.span_id=\"5152299721780885243\"","time":"2022-10-06T12:00:51-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"3273547107074307098\" dd.span_id=\"3273547107074307098\"","time":"2022-10-06T12:00:52-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4430921260540987359\" dd.span_id=\"4430921260540987359\"","time":"2022-10-06T12:00:52-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"6481193915609868389\" dd.span_id=\"6481193915609868389\"","time":"2022-10-06T12:00:52-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"5902072499723124958\" dd.span_id=\"5902072499723124958\"","time":"2022-10-06T12:00:52-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2708850396775038345\" dd.span_id=\"2708850396775038345\"","time":"2022-10-06T12:00:52-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"4565829955430037453\" dd.span_id=\"4565829955430037453\"","time":"2022-10-06T12:00:53-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"6460757962034163101\" dd.span_id=\"6460757962034163101\"","time":"2022-10-06T12:00:53-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"3338589963555231774\" dd.span_id=\"3338589963555231774\"","time":"2022-10-06T12:00:53-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"2632244310612649179\" dd.span_id=\"2632244310612649179\"","time":"2022-10-06T12:00:53-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"9083344036618432161\" dd.span_id=\"9083344036618432161\"","time":"2022-10-06T12:02:17-07:00"}
+{"level":"info","msg":"my trace message dd.service=test-go dd.env=test-service dd.version=0.0.1 dd.trace_id=\"6310078585294756369\" dd.span_id=\"6310078585294756369\"","time":"2022-10-06T12:02:18-07:00"}
