@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example
+  labels:
+    app: example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: example
+  template:
+    metadata:
+      annotations:
+        ad.datadoghq.com/example.check_names: '["http_check"]'
+        ad.datadoghq.com/example.init_configs: '[{}]'
+        ad.datadoghq.com/example.instances: |
+          [
+            {
+              "name": "My APM Service",
+              "url": "http://%%host%%:%%port%%",
+              "timeout": 1
+            }
+          ]
+        ad.datadoghq.com/example.logs: |
+          [
+            {
+              "source": "go",
+              "service": "example"
+            }
+          ]
+      labels:
+        app: example
+        tags.datadoghq.com/env: "sandbox"
+        tags.datadoghq.com/service: "example"
+        tags.datadoghq.com/version: "0.0.1"
+    spec:
+      containers:
+        - name: example
+          image: docker.io/seandever376/example_app:latest
+          ports:
+          - containerPort: 80
