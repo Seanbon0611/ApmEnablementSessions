@@ -65,16 +65,20 @@ helm upgrade datadog -f values.yaml datadog/datadog
 kubectl apply -f application_deployment.yaml
 ```
 
-Lets verify our pod is running with kubectl get pods
+2. Lets verify our pod is running with the command:
+```
+kubectl get pods
+```
 
-copy the pod name and lets make a few requests for this app:
+3. Copy the pod name and lets make a few requests for this app:
 ```
 kubectl exec -it <pod_name> -- bash
 ```
-We can see that our requests are going through, so lets check stdout for our application
+4. We can see that our requests are going through, so lets check stdout for our application
 ```
 kubectl logs <pod_name>
 ```
+<br/>
 
-Where could we go from here?
+## Where could we go from here?
 
