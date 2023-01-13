@@ -37,9 +37,9 @@ func main() {
 //function that renders home path
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
 	if span, ok := tracer.SpanFromContext(r.Context()); ok {
-		traceID := span.Context().TraceID()
-		spanID := span.Context().TraceID()
-		log.Printf("dd.service:test-go, dd.env:test-service, dd.version=0.0.1, dd.trace_id: %v, dd.span_id: %v", traceID, spanID)
+		// log.Printf("my trace message %v", span)
+		log.Printf("my trace message %v", span)
+		// log.WithFields(log.Fields{"dd.service": "test-go", "dd.env": "test-service", "dd.version": "0.0.1", "dd.trace_id": traceID, "dd.span_id": spanID}).Info("My first event from golang to stdout")
 	}
 	fmt.Fprintf(w, "Welcome to Gopherdog! ʕ◔ϖ◔ʔ")
 }

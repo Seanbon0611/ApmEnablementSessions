@@ -14,10 +14,12 @@ func main() {
 		tracer.WithService("example_app"),
 		tracer.WithServiceVersion("0.0.1"),
 	)
+	defer tracer.Stop()
+
 	r := mux.NewRouter()
 	r.HandleFunc("/", HomeHandler)
-	http.ListenAndServe(":80", r)
 
+	http.ListenAndServe(":80", r)
 }
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {

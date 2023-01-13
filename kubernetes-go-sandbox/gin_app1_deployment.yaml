@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example
+  name: ginapp1
   labels:
-    app: example
+    app: ginapp1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: example
+      app: ginapp1
   template:
     metadata:
       annotations:
-        ad.datadoghq.com/example.check_names: '["http_check"]'
-        ad.datadoghq.com/example.init_configs: '[{}]'
-        ad.datadoghq.com/example.instances: |
+        ad.datadoghq.com/ginapp1.check_names: '["http_check"]'
+        ad.datadoghq.com/ginapp1.init_configs: '[{}]'
+        ad.datadoghq.com/ginapp1.instances: |
           [
             {
               "name": "My APM Service",
@@ -22,24 +22,24 @@ spec:
               "timeout": 1
             }
           ]
-        ad.datadoghq.com/example.logs: |
+        ad.datadoghq.com/ginapp1.logs: |
           [
             {
               "source": "go",
-              "service": "example"
+              "service": "ginapp1"
             }
           ]
       labels:
-        app: example
+        app: ginapp1
         tags.datadoghq.com/env: "sandbox"
-        tags.datadoghq.com/service: "example"
-        tags.datadoghq.com/version: "0.0.1"
+        tags.datadoghq.com/service: "ginapp1"
+        tags.datadoghq.com/version: "1.0.0"
     spec:
       containers:
-        - name: example
-          image: docker.io/seandever376/example_app:latest
+        - name: ginapp1
+          image: docker.io/seandever376/ginapp1:latest
           ports:
-          - containerPort: 80
+          - containerPort: 8080
           env:
             - name: DD_AGENT_HOST
               valueFrom:

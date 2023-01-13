@@ -12,13 +12,18 @@ tracer.use("express", {
   validateStatus: (code) => code < 400,
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.post("/process_order_34e89a3f-b30c-4c1b-89c3-f94153d4d194", (req, res) => {
+  res.status(200).send("Order: 34e89a3f-b30c-4c1b-89c3-f94153d4d194 has been processed.");
 });
 
+
+//PROPMT #1
 //If a customer wants to observe the full error stack, they can impliment Custom Instrumentation to add the necessary error tags to their. Source: https://docs.datadoghq.com/tracing/trace_collection/custom_instrumentation/nodejs/?tab=errors#pagetitle
-app.get("/error", (req, res) => {
-  res.status(500).send("Internal Server Error");
+app.get("/test/1234567891245643758", (req, res) => {
+  const span = tracer.scope().active()
+  // span.setTag("resource_name", "127.33.678.1")
+  span.setTag("test_tag", [123, 456])
+  res.status(200).send("test");
 
   /*
 throw new Error("There was an error!!!!") <---This works in this example

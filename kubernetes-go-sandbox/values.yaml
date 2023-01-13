@@ -1,7 +1,12 @@
 datadog:
+  # apiKey: <DATADOG_API_KEY>
+  # appKey: <DATADOG_APP_KEY>
+  # If not using secrets, then use apiKey and appKey instead
   apiKeyExistingSecret: datadog-agent
-  clusterName: example.app.agent
+  clusterName: kubernetes-go-sandbox
   tags: []
+  # datadog.kubelet.tlsVerify should be `false` on kind and minikube
+  # to establish communication with the kubelet
   kubelet:
     tlsVerify: false
   kubeStateMetricsEnabled:
