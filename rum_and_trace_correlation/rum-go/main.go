@@ -26,7 +26,6 @@ func main() {
 
 func getMessage(w http.ResponseWriter, r *http.Request) {
 	message := Data{Message: "Hello, World!!!!!!"}
-
 	w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
