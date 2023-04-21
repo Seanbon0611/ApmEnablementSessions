@@ -1,0 +1,33 @@
+datadog:
+  apiKeyExistingSecret: datadog-agent
+  kubelet:
+    tlsVerify: false
+
+  kubeStateMetricsCore:
+    enabled: true
+
+  orchestratorExplorer:
+    enabled: true
+  logs:
+    enabled: true
+    containerCollectAll: true
+  apm:
+    socketEnabled: false
+    portEnabled: true
+  processAgent:
+    enabled: true
+    processCollection: true
+
+  clusterChecks:
+    enabled: true
+
+  ignoreAutoConfig:
+    - etcd
+    - kube_controller_manager 
+    - kube_scheduler 
+
+clusterAgent:
+  enabled: true
+  admissionController:
+    enabled: true
+    mutateUnlabelled: false
