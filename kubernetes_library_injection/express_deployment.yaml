@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expressapp
+  labels:
+    app: expressapp
+    tags.datadoghq.com/env: "sandbox"
+    tags.datadoghq.com/service: "expressapp"
+    tags.datadoghq.com/version: "1.0.0"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: expressapp
+  template:
+    metadata:
+      annotations:
+        admission.datadoghq.com/js-lib.version: "v3.16.0"
+      labels:
+        app: expressapp
+        tags.datadoghq.com/env: "sandbox"
+        tags.datadoghq.com/service: "expressapp"
+        tags.datadoghq.com/version: "1.0.0"
+        admission.datadoghq.com/enabled: "true"
+    spec:
+      containers:
+        - name: expressapp
+          image: docker.io/seandever376/express_app:latest
+          ports:
+          - containerPort: 3005
+          env:
+          - name: DD_TRACE_DEBUG
+            value: 'true'
